@@ -1,0 +1,109 @@
+{
+    "users": [    
+        {
+          "id": 1,
+          "nombre": "Juan",
+          "apellido": "Pérez",
+          "edad": 28,
+          "email": "juan.perez@example.com"
+        },
+        {
+          "id": 2,
+          "nombre": "María",
+          "apellido": "García",
+          "edad": 35,
+          "email": "maria.garcia@example.com"
+        },
+        {
+          "id": 3,
+          "nombre": "Carlos",
+          "apellido": "López",
+          "edad": 21,
+          "email": "carlos.lopez@example.com"
+        },
+        {
+          "id": 4,
+          "nombre": "Laura",
+          "apellido": "Gómez",
+          "edad": 43,
+          "email": "laura.gomez@example.com"
+        },
+        {
+          "id": 5,
+          "nombre": "Jorge",
+          "apellido": "Martínez",
+          "edad": 30,
+          "email": "jorge.martinez@example.com"
+        },
+        {
+          "id": 6,
+          "nombre": "Ana",
+          "apellido": "Sánchez",
+          "edad": 25,
+          "email": "ana.sanchez@example.com"
+        },
+        {
+          "id": 7,
+          "nombre": "Pedro",
+          "apellido": "Fernández",
+          "edad": 39,
+          "email": "pedro.fernandez@example.com"
+        },
+        {
+          "id": 8,
+          "nombre": "Carmen",
+          "apellido": "Gutiérrez",
+          "edad": 31,
+          "email": "carmen.gutierrez@example.com"
+        },
+        {
+          "id": 9,
+          "nombre": "José",
+          "apellido": "Ramírez",
+          "edad": 42,
+          "email": "jose.ramirez@example.com"
+        },
+        {
+          "id": 10,
+          "nombre": "Sofía",
+          "apellido": "Hernández",
+          "edad": 27,
+          "email": "sofia.hernandez@example.com"
+        },
+        {
+          "id": 11,
+          "nombre": "Manuel",
+          "apellido": "Torres",
+          "edad": 33,
+          "email": "manuel.torres@example.com"
+        },
+        {
+          "id": 12,
+          "nombre": "Marta",
+          "apellido": "López",
+          "edad": 29,
+          "email": "marta.lopez@example.com"
+        },
+        {
+          "id": 13,
+          "nombre": "Fernando",
+          "apellido": "González",
+          "edad": 36,
+          "email": "fernando.gonzalez@example.com"
+        },
+        {
+          "id": 14,
+          "nombre": "Elena",
+          "apellido": "García",
+          "edad": 24,
+          "email": "elena.garcia@example.com"
+        },
+        {
+          "id": 15,
+          "nombre": "Santiago",
+          "apellido": "Apellido",
+          "edad": 12,
+          "email": "juajuajua@gmail.com"
+        }
+    ]
+}

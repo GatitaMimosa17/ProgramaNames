@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script async src="/index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="">
+        <h1>BUSQUEDA DE DATOS</h1>
+        <br>
+        <div class="">
+            <input type="search" class="input-search" id="search" placeholder="Busqueda de usuarios..."
+                onkeyup="searchData(this.value)">
+            <button class="btn-add" id="showAdd">ADD</button>
+        </div>
+        <h6>SE PUEDE HACER LA BUSQUEDA DE USUARIOS POR NOMBRE, APELLIDO O EMAIL.</h6>
+    </header>
+
+    <main class="container">
+        <div class="content">
+            <div class="sub_content-1">
+                <table id="dataAddTable" class="table">
+                    <thead>
+                        <tr>
+                            <th>NOMBRE</th>
+                            <th>APELLIDO</th>
+                            <th>EDAD</th>
+                            <th>EMAIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sub_content-2" id="content-2">
+                <h2>FILTROS</h2>
+                <div class="">
+                    <div class="input-groups">
+                        <input type="radio" name="filtro" checked value='D' onchange="filterData(this.value)">
+                        <label for="">Default</label>
+                    </div>
+                    <div class="input-groups">
+                        <input type="radio" name="filtro" value='M' onchange="filterData(this.value)">
+                        <label for="">Mayor</label>
+                    </div>
+                    <div class="input-groups">
+                        <input type="radio" name="filtro" value='m' onchange="filterData(this.value)">
+                        <label for="">Menor</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div hidden id="ContenedorForm">
+                <form id="addDataForm" class="form-content">
+                    <input class="input_" type="text" name="Nombre" placeholder="Nombre">
+                    <input class="input_" type="text" name="Apellido" placeholder="Apellido">
+                    <input class="input_" type="text" name="Edad" placeholder="Edad">
+                    <input class="input_" type="text" name="Email" placeholder="Email">
+
+                    <button class="btn-add" type="submit" id="add">Agregar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
